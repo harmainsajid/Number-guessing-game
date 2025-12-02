@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a088b7, #5a2a7b);
+  color: #222;
+  padding: 2rem;
+}
+
+/* Game Container */
+.game-container {
+  width: 22rem; /* Responsive size */
+  padding: 2rem;
+  text-align: center;
+  border: 0.07rem solid #ddd;
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 0 1.5rem 0.2rem rgba(66, 57, 57, 0.5);
+}
+
+/* Title */
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+/* Instruction */
+#instruction {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+/* Input */
+#guess-input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 0.07rem solid #ddd;
+  border-radius: 0.5rem;
+  outline: none;
+  margin: 0.8rem 0 1.3rem 0;
+  background: #fdfdfd;
+}
+
+#guess-input:focus {
+  border-color: #333;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #222;
+  color: #fff;
+  margin-bottom: 0.8rem;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #444;
+}
+
+/* Restart Button */
+#restart-button {
+  background: #666;
+}
+
+#restart-button:hover {
+  background: #888;
+}
+
+/* Result Text */
+#result {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
